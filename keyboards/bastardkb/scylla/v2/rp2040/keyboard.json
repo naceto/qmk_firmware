@@ -1,0 +1,23 @@
+{
+    "keyboard_name": "Scylla RP2040",
+    "usb": {
+        "device_version": "2.0.0"
+    },
+    "features": {
+        "bootmagic": true,
+        "mousekey": false,
+        "extrakey": true,
+        "rgb_matrix": false
+    },
+    "matrix_pins": {
+        "cols": ["GP12", "GP11", "GP10", "GP9", "GP8", "GP7"],
+        "rows": ["GP20", "GP19", "GP18", "GP17", "GP16"]
+    },
+    "diode_direction": "COL2ROW",
+    "split": {
+        "enabled": true
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "board": "GENERIC_RP_RP2040"
+}
