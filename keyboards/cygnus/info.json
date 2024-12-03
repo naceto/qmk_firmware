@@ -1,0 +1,15 @@
+{
+    "url": "https://github.com/juhakaup/keyboards/tree/main/Cygnus%20v1.0",
+    "usb": {
+        "vid": "0x83B0",
+        "pid": "0xF082"
+    },
+    "split": {
+        "enabled": true,
+        "transport": {
+            "sync": {
+                "matrix_state": true
+            }
+        }
+    }
+}
