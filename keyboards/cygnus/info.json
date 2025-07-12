@@ -5,11 +5,6 @@
         "pid": "0xF082"
     },
     "split": {
-        "enabled": true,
-        "transport": {
-            "sync": {
-                "matrix_state": true
-            }
-        }
+        "enabled": true
     }
 }
