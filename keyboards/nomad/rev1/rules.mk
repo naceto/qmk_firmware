@@ -1,1 +1,2 @@
 CONVERT_TO=rp2040_ce
+VIA_ENABLE = yes

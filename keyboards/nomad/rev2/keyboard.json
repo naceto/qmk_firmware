@@ -138,8 +138,8 @@
     "url": "https://github.com/fiendie/NomadKeyboard",
     "usb": {
         "device_version": "0.0.1",
-        "pid": "0x0287",
-        "vid": "0xFC32"
+        "pid": "0x1411",
+        "vid": "0x5CD0"
     },
     "ws2812": {
         "pin": "D3"
