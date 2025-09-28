@@ -161,6 +161,12 @@ bool oled_task_user(void) {
                     oled_set_cursor(0, 10);
                     oled_write_raw_P(layer_indicator_0, sizeof(layer_indicator_0));
             }
+        } else {
+            oled_set_cursor(0, 10);
+            led_t led_state = host_keyboard_led_state();
+            oled_write_P(led_state.num_lock ? PSTR("NUM ") : PSTR("    "), false);
+            oled_write_P(led_state.caps_lock ? PSTR("CAP ") : PSTR("    "), false);
+            oled_write_P(led_state.scroll_lock ? PSTR("SCR ") : PSTR("    "), false);
         }
     }
 
